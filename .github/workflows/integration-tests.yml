@@ -1,7 +1,7 @@
 name: Integration Tests
 on:
-  schedule:
-    - cron: "0 3 * * *"
+#  schedule:
+#    - cron: "0 3 * * *"
   workflow_dispatch:
 
 jobs:
@@ -643,7 +643,7 @@ jobs:
           yarn test-node-coverage
         env:
           NODEOS_VER: 'develop'
-          COVERAGE_TESTING: true 
+          COVERAGE_TESTING: true
       - name: Test Types
         run: |
           yarn test-types
