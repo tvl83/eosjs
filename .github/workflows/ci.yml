@@ -58,7 +58,7 @@ jobs:
         run: |
           yarn build-web
       - name: Test Web
-        uses: cypress-io/github-action@6e9b583c9652e99b72b042a3957980fc6166efae
+        uses: cypress-io/github-action@a45da79a2ea5457403a080c4fcc0ea3daf6924a0
         with:
           spec: cypress/integration/index.spec.js
       - name: Get Protected Status
