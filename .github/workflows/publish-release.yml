@@ -13,7 +13,7 @@ jobs:
         node-version: [12.14.1]
     steps:
       - name: Checkout
-        uses: actions/checkout@f90c7b395dac7c5a277c1a6d93d5057c1cddb74e
+        uses: actions/checkout@bf085276cecdb0cc76fbbe0687a5a0e786646936
       - name: Setup Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@c6fd00ceb9747fb23ffdf72987450a2664414867
         with:
@@ -69,7 +69,7 @@ jobs:
         node-version: [12.14.1]
     steps:
       - name: Checkout
-        uses: actions/checkout@f90c7b395dac7c5a277c1a6d93d5057c1cddb74e
+        uses: actions/checkout@bf085276cecdb0cc76fbbe0687a5a0e786646936
       - name: Setup Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@c6fd00ceb9747fb23ffdf72987450a2664414867
         with:
